@@ -1,0 +1,19 @@
+Estimated hours from effort plugin. 
+This plugin populates the Estimated Time field based on a set of custom values in an effort field.
+
+Installation:
+
+Copy folder to vendor/plugins in your redmine directory.
+
+Assumptions:
+
+The custom effort field already exists in the custom_fields section of the admin
+panel and is called "Effort".
+
+It should be set up with the following values:
+
+Minimal (0-2 hrs)
+Low (2-5 hrs) 
+Medium (5-10 hrs) 
+High (10-20 hrs) 
+Extra High (20+ hrs)
